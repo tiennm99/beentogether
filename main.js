@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var second = document.querySelector('.second');
 
   var startDate = new Date(2019, 3, 11);
-  days.innerText = Math.floor((new Date - startDate) / 86400000);
+  days.innerText = Math.floor((new Date(2022, 9, 8) - startDate) / 86400000);
   countTime();
 
   function countTime() {
@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     second.innerText = Math.floor(ms % 3600000 % 60000 / 1000);
   }
 
-  setInterval(countTime, 1000);
+  // setInterval(countTime, 1000);
 
 }, false);

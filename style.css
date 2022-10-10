@@ -56,7 +56,9 @@ img {
 
 .avatar {
   width: 70px;
+  height: 70px;
   border-radius: 50%;
+  vertical-align: middle;
 }
 
 .info .details {
@@ -123,23 +125,23 @@ img {
   animation: heartBeat 1s ease-in-out infinite;
 }
 
-@keyframes heartBeat {
-  0% {
-    transform: scale(.9);
-  }
+/*@keyframes heartBeat {*/
+/*  0% {*/
+/*    transform: scale(.9);*/
+/*  }*/
 
-  45% {
-    transform: scale(1.1);
-  }
+/*  45% {*/
+/*    transform: scale(1.1);*/
+/*  }*/
 
-  70% {
-    transform: scale(.9);
-  }
+/*  70% {*/
+/*    transform: scale(.9);*/
+/*  }*/
 
-  100% {
-    transform: scale(.9);
-  }
-}
+/*  100% {*/
+/*    transform: scale(.9);*/
+/*  }*/
+/*}*/
 
 @media (max-width: 997px) {
   .box {
